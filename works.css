@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* nav bar */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    z-index: 1000; /* Ensure it's on top of other elements */
+}
+
+/* Add a class to style the logo separately if needed */
+header .logo {
+    color: #E8B1C0;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #302928;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    background: #E8B1C0;
+    color: #fff;
+}
+
+/* Add the following styles to create an outline effect only when scrolled */
+header::before {
+    content: '';
+    position: absolute;
+    top: 100px;;
+    left: 0;
+    width: 100%;
+    height: 1.5px; /* Adjust the thickness of the outline */
+    background-color: #fff; /* Add a background color if needed */
+    box-shadow: 0px 5px 4.5px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for a subtle effect */
+    /*background: #E8B1C0; /* Color of the outline */
+    visibility: hidden;
+    transition: visibility 0s, height 0.3s; /* Smooth transition effect */
+}
+
+body.scrolled header::before {
+    visibility: visible;
+}
+
+
+.illtext {
+    
+    top: 170px;
+    left: 610px;
+    /*text-align: center; AYAW HUHU*/
+    font-size: 40px;
+    color: #E8B1C0;
+    position: absolute;
+
+}
+
+
+.illustration1{
+    position: absolute;
+    top: 280px;
+    left: 280px;
+    height: 375px;
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #fff;
+    border-color: #E8B1C0;
+}
+
+.ill1img {
+    position: absolute;
+    top: 300px;
+    left: 292px;
+    width: 280px;
+}
+
+.illustration2{
+    position: absolute;
+    top: 281px;
+    left: 620px;
+    height: 375px;
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #fff;
+    border-color: #E8B1C0;
+}
+
+.ill2img {
+    position: absolute;
+    top: 282px;
+    left: 621.5px;
+    width: 297px;
+}
+
+
+.illustration3{
+    position: absolute;
+    top: 280px;
+    left: 960px;
+    height: 375px;
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #fff;
+    border-color: #E8B1C0;
+}
+
+
+.ill3img {
+    position: absolute;
+    top: 285px;
+    left: 970px;
+    width: 280px;
+}
+
+
+.ill1button {
+
+    position: absolute; 
+    top: 575px;
+    left: 280px;
+    width: 300px;
+    height: 80px;
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    color: #E8B1C0;
+    background: white;
+    border: #E8B1C0 solid;
+    transition: all 300ms ease;
+
+  }
+  
+  .ill1button:hover {
+    background: #E8B1C0;
+    color: #fff;
+  }
+
+
+  .ill2button {
+
+    position: absolute; 
+    top: 576px;
+    left: 620px;
+    width: 300px;
+    height: 80px;
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    color: #E8B1C0;
+    background: white;
+    border: #E8B1C0 solid;
+    transition: all 300ms ease;
+
+  }
+  
+  .ill2button:hover {
+    background: #E8B1C0;
+    color: #fff;
+  }
+
+  .ill3button {
+
+    position: absolute; 
+    top: 575px;
+    left: 960px;
+    width: 300px;
+    height: 80px;
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    color: #E8B1C0;
+    background: white;
+    border: #E8B1C0 solid;
+    transition: all 300ms ease;
+
+  }
+  
+  .ill3button:hover {
+    background: #E8B1C0;
+    color: #fff;
+  }
+
+
+  .cwtext {
+    
+    top: 800px;
+    left: 610px;
+    /*text-align: center; AYAW HUHU*/
+    font-size: 40px;
+    color: #E8B1C0;
+    position: absolute;
+
+}
+
+
+  .tcp {
+    position: absolute;
+    top: 910px;
+    left: 220px;
+    height: 300px;
+    width: 520px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #fff;
+    border-color: #E8B1C0;
+}
+
+    .tcpimg {
+
+        position: absolute;
+        top: 910px;
+        left: 340px;
+        width: 300px;
+
+
+    }
+
+    .tcpbutton {
+
+        position: absolute; 
+        top: 1200px;
+        left: 220px;
+        width: 520px;
+        height: 80px;
+        padding: 1rem;
+        font-size: 20px;
+        font-weight: 100;
+        text-align: center;
+        color: #E8B1C0;
+        background: white;
+        border: #E8B1C0 solid;
+        transition: all 300ms ease;
+    
+      }
+      
+      .tcpbutton:hover {
+        background: #E8B1C0;
+        color: #fff;
+      }
+    
+
+      .misc {
+        position: absolute;
+        top: 910px;
+        left: 800px;
+        height: 300px;
+        width: 520px;
+        border-style: solid;
+        border-width: 2px;
+        background-color: #fff;
+        border-color: #E8B1C0;
+    }
+    
+        .miscimg {
+    
+            position: absolute;
+            top: 940px;
+            left: 945px;
+            width: 230px;
+    
+    
+        }
+    
+        .miscbutton {
+    
+            position: absolute; 
+            top: 1200px;
+            left: 800px;
+            width: 520px;
+            height: 80px;
+            padding: 1rem;
+            font-size: 20px;
+            font-weight: 100;
+            text-align: center;
+            color: #E8B1C0;
+            background: white;
+            border: #E8B1C0 solid;
+            transition: all 300ms ease;
+        
+          }
+          
+          .miscbutton:hover {
+            background: #E8B1C0;
+            color: #fff;
+          }
+
+          .footer{
+            background-color: #E8B1C0; /* Updated background color */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            width: 100%;
+
+            position: absolute;
+            bottom: -670px;
+            left: 0;
+            z-index: 20;            
+
+          }
+        
+
+        
+        

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*HOME*/
+
+/*nav bar*/
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo
+{
+    color: #E8B1C0;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+}
+
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a 
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #302928;
+    border-radius: 20px;
+}
+
+header ul li a:hover ,
+header ul li a.active
+{
+    background:#E8B1C0;
+    color: #fff; 
+}
+
+
+/*hi, i'm*/
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    padding-left: 100px;
+    padding-top: 290px;
+}
+
+/*typing animation*/
+
+h1 {
+    color: #E8B1C0;
+    font-size: 75px;
+}
+
+span {
+    color: #E8B1C0;
+}
+
+/*home image*/
+
+.pic {
+    position: absolute;
+    width: 610px;
+    right: 0;
+    top: 127px;
+}
+
+
+/*welcome message*/
+
+.WMessage {
+    position: absolute;
+    text-align: left;
+    color: #BF939F;
+    font-size: 18px;
+    padding-top: 405px;
+    padding-left: 103px;
+    letter-spacing: 1px;
+    
+}
+
+/*icons for soc med*/
+
+.fb {
+    position: absolute;
+    width: 40px;
+    left: 97px;
+    top: 670px;
+
+}
+
+.ig {
+    position: absolute;
+    width: 40px;
+    top: 670px;
+    left: 150px;    
+}   
+
+.email {
+    position: absolute;
+    width: 40px;
+    top: 670px;
+    left: 203px; 
+}
